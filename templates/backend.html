@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col-md-2 sideBar h-100">
+      
+      <div class="logoPanel border-bottom">
+        <img src="{% static 'images/small_logo.png' %}" alt="Logo Image">....
+        <h7 class="text-light"> DEKODING </h7>
+      </div>
+
+      <div class = "menuPanel">
+        <ul class="listSideBar">
+          <a  href="{% url 'dogList' %}"> <li class="liOpt "><img src="{% static 'images/list_icon.png' %}"> <span>Dog List</span></li></a>
+          <a href="{% url 'dogAdd' %}"> <li class="liOpt"><img src="{% static 'images/add_icon.png' %}"> <span>Add Dog</span></li></a>
+          <a href="#"> <li class="liOpt"><img src="{% static 'images/list_icon.png' %}"> <span>Owner List</span></li></a>
+          <a href="#"> <li class="liOpt"><img src="{% static 'images/add_icon.png' %}"> <span>Add Owner</span> </li></a>
+        </ul>
+      </div>    
+    </div>        
+      
+    <div class="col-md-10 content h-100">
+      {% block contentPage %}{% endblock %}
+    </div>	
+  </div>
+</div>  
+{% endblock %}

@@ -1,0 +1,93 @@
+html,body {
+  height: 100%;
+}
+
+a:link    {
+  text-decoration:  none;
+  color:            white;
+  } 
+
+.sideBar{
+	background:#1C1C1E;
+	width: 20%;
+}
+.content{
+	background: #E9ECF7;
+	width: 80%;
+}
+
+.logoPanel{
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.menuPanel{
+	padding-top: 20px;
+}
+
+.liOpt{
+	color: white;
+	padding: 10px;
+	list-style: none;
+	border-radius: 10px;
+	margin-left: -10px;
+}
+
+.liOpt:hover{
+	background-color: #5DADE2;	
+}
+
+.purple{
+	background: #9B2AAF;
+}
+
+th{
+	color:#9B2AAF;
+}
+
+.listSideBar{
+	padding-left: 10px;
+}
+
+.backEmpty{
+	color:#E9ECF7; 
+	padding: 25px;
+}
+
+.back{
+	padding: 25px;
+}
+
+.cardHeader{
+	color: white;
+	border-radius: 15px;
+	width: 90%;
+	margin-top: -10px;
+	margin-left: 4%;
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.cardBody{
+	background: white;
+	border-radius: 20px;
+}
+
+
+.btnForm{
+	margin: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 10px;
+}
+
+.form-control{
+	width: 90%;
+	border-color: #E9ECF7;
+	margin: 10px;
+	padding:  5px;
+	border: 0;
+	background:  white;
+	border-bottom: 1px solid silver;
+}

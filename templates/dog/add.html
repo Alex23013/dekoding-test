@@ -1,0 +1,41 @@
+{% extends "backend.html" %}
+{% load static %}
+
+{% block contentPage %}
+  <div >
+    <div class="backEmpty"></div>
+    <div class="cardBody w-75">
+      <div class="row "> <h4 class="cardHeader purple">Add Dog</h4>  </div>
+
+     <form action = "" method="POST">
+      {% csrf_token %}
+          <div class="row">
+            <div class="col ">
+                {{ form.name.errors }}  
+                <input type="text" class="form-control w-50" placeholder="Name" for="{{ form.name.id_for_label }}" {{ form.name }}                      
+              </div>
+          </div>
+          
+          <div class="row">
+              <div class="col-sm-4">
+                {{ form.breed.errors }}  
+                <input type="text" class="form-control" placeholder="Breed" for="{{ form.breed.id_for_label }}" {{ form.breed }}
+              
+              <button type="submit" class="btn btn-primary btnForm purple">Save Dog</button>
+              </div>
+
+              <div class="col-sm-4">
+                  {{ form.age.errors }}
+                <input type="text" class="form-control" placeholder="Age" for="{{ form.age.id_for_label }}" 
+                {{ form.age }}
+              </div>
+
+              <div class="col-sm-4">
+                  {{ form.owner.errors }}
+                <input type="text" class="form-control" placeholder="Owner" for="{{ form.owner.id_for_label }}"  {{ form.owner }}
+              </div>
+          </div>     
+      </form> 
+    </div>
+  </div>
+{% endblock %}

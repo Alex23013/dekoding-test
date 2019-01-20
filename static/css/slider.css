@@ -1,0 +1,72 @@
+
+#slide1{
+	background:#747579;	
+}
+
+#divD{
+	background:#3CCED3;
+}
+
+#divE{background:#4C9DD1;}
+
+#divK{background:#4347A4;}
+
+#divOding{
+	background:#665B4C;
+	}
+
+.bigFont{
+	height: 338px;
+	font-size: 150px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 40px;
+
+}
+.rowT{
+	margin-top: 2px;
+	width: 100%;
+	height: 338px;
+	font-size: 150px; 
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 60px;		
+}
+
+#slide3{
+	background:#665B4C;
+	background-image: url(wallpaper.png);
+	background-repeat: no-repeat, 
+}
+
+#panelSlide3{
+	background-color: #2A79AD;
+	color: white;
+	height: 200px;
+	width: 75%;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.card-body{
+	padding-left: 140px;	
+}
+.empty{
+	height: 330px;
+}
+.btn-submit{
+	margin-top: 20px;
+	margin-left:  330px;
+	padding-right: 20px;
+	padding-left:  20px;
+}
+
+.carousel-control-next-icon{
+ width: 50px;
+ height: 50px;
+}
+
+.carousel-control-prev-icon{
+ width: 50px;
+ height: 50px;
+}
